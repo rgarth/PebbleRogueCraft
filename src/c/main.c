@@ -54,7 +54,8 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
   static char t_buffer[] = "00:00";
   strftime(t_buffer, sizeof(t_buffer), "%l:%M", tick_time);
   
-  static char msg[79] = "";
+  static char msg[79];
+  msg[0] = '\0';
   strcat(msg, t_buffer);
   switch (rand() % 4){
     case 0:
