@@ -1,0 +1,61 @@
+{
+    "author": "rgarth@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "roguecraft",
+    "pebble": {
+        "displayName": "RogueCraft",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/wither.png",
+                    "name": "IMG_WITHER",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/slime.png",
+                    "name": "IMG_SLIME",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/magma.png",
+                    "name": "IMG_MAGMA",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/ghast.png",
+                    "name": "IMG_GHAST",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/ender.png",
+                    "name": "IMG_ENDER",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/creeper.png",
+                    "name": "IMG_CREEPER",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "78ac79f4-019f-4e94-a370-a53e8d1217c1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
