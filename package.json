@@ -11,6 +11,12 @@
         "resources": {
             "media": [
                 {
+                    "file": "images/zombiepig.png",
+                    "name": "IMG_ZOMBIEPIG",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
                     "file": "images/wither.png",
                     "name": "IMG_WITHER",
                     "targetPlatforms": null,
