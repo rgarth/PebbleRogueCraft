@@ -11,6 +11,48 @@
         "resources": {
             "media": [
                 {
+                    "file": "images/ender.png",
+                    "name": "IMG_ENDER",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/cavespider.png",
+                    "name": "IMG_CAVESPIDER",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/stray.png",
+                    "name": "IMG_STRAY",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/skeleton.png",
+                    "name": "IMG_SKELETON",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/blaze.png",
+                    "name": "IMG_BLAZE",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/zombie.png",
+                    "name": "IMG_ZOMBIE",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/enderdragon.png",
+                    "name": "IMG_DRAGON",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
                     "file": "images/zombiepig.png",
                     "name": "IMG_ZOMBIEPIG",
                     "targetPlatforms": null,
@@ -37,12 +79,6 @@
                 {
                     "file": "images/ghast.png",
                     "name": "IMG_GHAST",
-                    "targetPlatforms": null,
-                    "type": "png"
-                },
-                {
-                    "file": "images/ender.png",
-                    "name": "IMG_ENDER",
                     "targetPlatforms": null,
                     "type": "png"
                 },

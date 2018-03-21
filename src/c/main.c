@@ -9,7 +9,7 @@ char msg[13];
 static void update_watch_bg() {
   gbitmap_destroy(rogue);
   msg[0] = '\0';
-  switch (rand() % 7) {
+  switch (rand() % 13) {
     case 0:
       rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_CREEPER);
       strcat(msg, "  NOOoooOO!!");
@@ -37,6 +37,30 @@ static void update_watch_bg() {
     case 6:
       rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_ZOMBIEPIG);
       strcat(msg, "  SHOO!");
+      break;
+    case 7:
+      rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_DRAGON);
+      strcat(msg, "  OH CRUM.");
+      break;
+    case 8:
+      rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_ZOMBIE);
+      strcat(msg, "  BRAAAINNNS");
+      break;
+    case 9:
+      rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_BLAZE);
+      strcat(msg, "  FIRE!");
+      break;
+    case 10:
+      rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_SKELETON);
+      strcat(msg, "  U Hungry?");
+      break;
+    case 11:
+      rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_STRAY);
+      strcat(msg, "  r u lost?");
+      break;
+    case 12:
+      rogue = gbitmap_create_with_resource(RESOURCE_ID_IMG_CAVESPIDER);
+      strcat(msg, "  BOO!");
       break;
   }
   bitmap_layer_set_bitmap(p_bg_layer, rogue);
